@@ -1,4 +1,4 @@
-O projeto foi construído o mais próximo possível do padrão MVC, porém, para evitar exceço de pastas, foi basicamente resumido em uma pasta raiz e outras 4 pastas, cada uma com sua finalidade específica. 
+O projeto foi construído o mais próximo possível do padrão MVC, porém, para evitar excesso de pastas, foi basicamente resumido em uma pasta raiz e outras 4 pastas, cada uma com sua finalidade específica. 
 
 Para que o projeto funcione corretamente, deve ser seguida a estrutura de pastas abaixo: 
 
