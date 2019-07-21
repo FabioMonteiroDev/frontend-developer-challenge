@@ -4,7 +4,7 @@
 	src: "../fonts/helvetica-neue.ttf";
 }
 
-h1, .sub, body header p
+h1, .subtitle, body header p
 {
 	color: #FFFFFF;
 }
@@ -28,7 +28,7 @@ h1
 	padding: 2px 0;
 }
 
-.sub
+.subtitle
 {
 	font-size: 40px;
 	width: 358px;
@@ -72,4 +72,135 @@ body header p
 	margin: 50px 359.5px auto 371px;
 	height: 50px;
 	width: 800px;
+}
+
+main {
+	display: flex;
+	height: 1495px;
+	color: #888888;
+	padding-top: 49px;
+	flex-flow: column;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+main h2 {
+	width: auto;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+main .principal {
+	display: flex;
+	width: 930px;
+	height: 740px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.produto {
+	width: 200px;
+	height: 350px;
+	margin-bottom: 40px;
+}
+
+img {
+	display: flex;
+	width: 100%;
+	height: 150px;
+	border: 1px solid #707070;
+	align-items: center;
+	justify-content: center;
+}
+
+.nomeproduto {
+	font-size: 14px;
+	margin: 14px 0 10px 0;
+}
+
+.descricao {
+	height: 60px;
+}
+
+.preco {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 6px 0 7px 0;
+}
+
+.comprar {
+	border: 1px solid #707070;
+	border-radius: 4px;
+	background-color: white;
+	color: #888888;
+	cursor: pointer;
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.precoantigo {
+	margin-top: 10px;
+}
+
+.maisprodutos {
+	display: block;
+	width: 260px;
+	height: 39px;
+	font-size: 16px;
+	margin: 0 auto;
+	margin: 43px auto 164px;
+}
+
+.titform {
+	margin: 44px auto 39px;
+	font-size: 14px;
+}
+
+.formulario {
+	display: flex;
+	width: 720px;
+	height: 51px;
+	margin: 0 auto 50px;
+	justify-content: space-between;
+}
+
+.caixa {
+	width: 340px;
+	height: 51px;
+	margin-right: 40px;
+}
+
+footer {
+	display: flex;
+	height: 187px;
+	background-color: #707070;
+	justify-content: center;
+}
+
+.rodape {
+	height: 50px;
+	color: white;
+	font-size: 12px;
+	margin: 65px 0 72px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.textform {
+	width: 340px;
+	height: 30px;
+	border: 1px solid #707070;
+	margin-top: 7px;
+	
+}
+
+.submeter {
+	display: block;
+	width: 260px;
+	height: 39px;
+	font-size: 16px;
+	margin: 0 auto;
 }
